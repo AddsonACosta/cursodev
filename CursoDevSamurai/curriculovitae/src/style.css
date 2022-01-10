@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html,
+body {
+  font-family: "Open Sans", "sans-serif";
+  color: #3c5d79;
+  width: 100%;
+  background: #edf0f2;
+}
+#pai {
+  margin-left: 23%;
+  margin-right: 23%;
+}
+header {
+  background-color: #152b15;
+}
+#cabecalho1 {
+  height: 170px;
+  width: 27.5%;
+  background-color: #008037;
+  float: left;
+}
+#cabecalho2 {
+  height: 170px;
+  width: 72.5%;
+  background-color: #008037;
+  float: left;
+}
+.h1-cabecalho2 {
+  margin-left: 7vh;
+  margin-top: 6vh;
+  color: #f3cca0;
+}
+.h2-cabecalho2 {
+  margin-left: 7vh;
+
+  color: #fffff7;
+}
+
+#menu {
+  height: 100vh;
+  width: 27.5%;
+  background-color: #fffff7;
+  float: left;
+}
+
+#main {
+  height: 100vh;
+  width: 72.5%;
+  background-color: #fffff7;
+  float: left;
+}
+
+#central {
+  margin-top: 3vh;
+  margin-left: 7vh;
+  margin-right: 4vh;
+}
+.h1-central {
+  background-color: #b8b780;
+  font-size: 2vh;
+  text-indent: 0.5em;
+}
+.p1-central {
+  font-weight: bold;
+  font-size: 2vh;
+  text-indent: 0.5em;
+  margin-top: 0.25em;
+}
+
+.p2-central {
+  font-size: 1.65vh;
+  text-indent: 0.5em;
+  margin-bottom: 0.55em;
+}
+li {
+  font-size: 1.5vh;
+  text-indent: 0.5em;
+  margin-bottom: 0.55em;
+}
+
+#lado {
+  height: 90vh;
+  width: 15%;
+  background-color: #b8b780;
+  position: fixed;
+  margin-top: 3vh;
+  margin-left: 3vh;
+}
+#fotoperfil {
+  margin-top: 3vh;
+  margin-left: 3vh;
+  margin-right: 3vh;
+  height: auto;
+  width: 80%;
+}
+#rodape {
+  margin-left: 23%;
+  margin-right: 23%;
+  height: 4vh;
+  background-color: #008037;
+  clear: both;
+  color: #fffff7;
+  text-align: center;
+  font-size: 1.5vh;
+  margin-top: 0.5vh;
+  position: static;
+}
